@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: column;
     gap: 64px;
-    background-color: aqua;
 }
+
 
 
 /* headeeeeeer___________conteiner */
@@ -53,19 +53,218 @@ li{
 
 /* main__________conteiner  */
 
-#main_conteiner{
+
+
+.main_conteiner{
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1040px;
-    height: 1656px;
-    background-color: chocolate;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
 }
 
-#button_box{
+
+
+.button_box{
     display: flex;
     width: 1040px;
     justify-content: space-between;
     align-items: center;
-    background-color:red;
+    margin-top: 64px;
+}
+
+
+
+
+.button_style{
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px ;
+    border-radius: 16px;
+    background: #F1EBFF;
+    border: 0;
+}
+
+
+
+
+#search_style{
+    display: flex;
+    width: 56px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #40D;
+}
+
+
+
+.foto_box{
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+
+
+#img_text{
+    color: #5E6577;
+    text-align: right;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+
+#display_text{
+    display: flex;
+    width: 1040px;
+    height: 48px;
+    align-items: flex-start;
+    gap: 10px;
+    border-bottom: 1px solid #CCD3E0;
+}
+
+
+
+#displey_title{
+    color: #40D;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
+#display_pp{
+    color: #5E6577;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+#yha_box{
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+    height: 266px;
+    border-top: 2px solid #8CE900;
+    border-bottom: 2px solid #DD2590;
+    border-left: 2px solid #000;
+    border-right: 2px solid #155EEF;
+}
+
+
+
+#yha_title{
+    color: #5E6577;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 18px;
+    padding-left: 25px;
+}
+
+
+#yha_paragraf{
+    display: flex;
+    align-items: flex-end;
+    color: #969696;
+    padding-top: 18px;
+    padding-right: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 488px;
+    height: 166px;
+}
+
+
+#Hostel_box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+    width: 1040px;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 16px;
+}
+
+
+#hostel_text{
+    color: #3B3B3B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 488px;
+}
+
+
+#hostel_title{
+    color: #5E6577;
+    font-size: 24px;
+    width: 488px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+#click_box{
+    display: flex;
+    width: 1040px;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+}
+
+#click_title{
+    color: #07081A;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 488px;
+}
+
+#click_text{
+    color: #155EEF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 488px;
+    height: 140px;
+}
+
+#footer_conteiner{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    height: 64px;
+    margin-top: 189px;
+    margin-right: 40px;
+    border-top: 1px solid #F1EBFF;
+}
+
+
+#footer_logos{
+    display: flex;
+    justify-content: space-around;
 }
